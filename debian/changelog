@@ -1,3 +1,12 @@
+db5.3 (5.3.28-13.1ubuntu1.1) bionic-security; urgency=medium
+
+  * SECURITY UPDATE: Heap out-of-bounds read
+    - debian/patches/CVE-2019-8457.patch: enhance the rtreenode
+      function in lang/sql/sqlite/ext/rtree/rtree.c.
+    - CVE-2019-8457
+
+ -- Leonidas S. Barbosa <leo.barbosa@canonical.com>  Mon, 03 Jun 2019 10:33:48 -0300
+
 db5.3 (5.3.28-13.1ubuntu1) bionic; urgency=medium
 
   * Adjust minimal java compat version from the deprecated 1.5 to 1.7.
